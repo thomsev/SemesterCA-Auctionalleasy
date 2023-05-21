@@ -1,0 +1,25 @@
+{
+  "name": "auction",
+  "version": "1.0.0",
+  "description": "Semester project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "sass --watch scss:assets/css"
+  },
+  "keywords": [
+    "bootstrap"
+  ],
+  "author": "Thomas Severinsen",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "cross-env": "^7.0.3",
+    "prettier": "2.8.8",
+    "sass": "^1.62.0"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.7",
+    "bootstrap": "^5.2.3"
+  }
+}

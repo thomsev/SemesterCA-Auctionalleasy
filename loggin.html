@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Access your account and unlock a world of possibilities. Login to our secure platform to manage your profile, track your bids, and participate in exciting auctions. Experience seamless login and enjoy a personalized auction experience.">
+  <title>Register</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">auctionalleasy</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="register.html">Register</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="loggin.html">Logg inn</a>
+        </li>
+      </ul>
+      <div class="credit-tracker">
+        <p>You have <span id="credit-count"></span> credits</p>
+      </div>
+      <button id="logout-button" class="btn btn-outline-light">Logout</button>
+    </div>
+  </nav>
+  <main class="container">
+    <h1>Login</h1>
+    <form id="login-form">
+      <div class="form-group">
+        <label for="login-email">Email:</label>
+        <input type="email" id="login-email" class="form-control" required>
+      </div>
+      <div class="form-group">
+        <label for="login-password">Password:</label>
+        <input type="password" id="login-password" class="form-control" required>
+      </div>
+      <button type="submit" class="btn btn-primary">Login</button>
+    </form>
+  </main>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="loggin.js"></script>
+</body>
+</html>
