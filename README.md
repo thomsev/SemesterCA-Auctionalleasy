@@ -1,6 +1,6 @@
 # Auctionalleasy
 
-![image]![github-bilde-ca](https://github.com/thomsev/SemesterCA-Auctionalleasy/assets/100193213/1e51676b-8963-4487-be15-ff078bd790b2)
+![github-bilde-ca](https://github.com/thomsev/SemesterCA-Auctionalleasy/assets/100193213/1e51676b-8963-4487-be15-ff078bd790b2)
 
 
 Summer Semester CA, Auction site
